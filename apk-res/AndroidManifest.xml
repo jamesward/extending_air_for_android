@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="air.app" android:versionCode="1000000" android:versionName="1.0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="app" android:icon="@drawable/icon">
+        <activity android:theme="@style/Theme.NoShadow" android:label="app" android:name=".AppEntry" android:launchMode="singleTask" android:screenOrientation="nosensor" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
+</manifest>
