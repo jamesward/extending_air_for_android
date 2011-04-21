@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.6">
+	<id>app</id>
+	<filename>app</filename>
+	<name>app</name>
+	<versionNumber>1.0.0</versionNumber>
+	<initialWindow>
+		<content>app.swf</content>
+		<visible>true</visible>
+		<autoOrients>true</autoOrients>
+	</initialWindow>
+</application>

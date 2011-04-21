@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="button_yes">Zainstaluj</string>
+    <string name="button_no">Anuluj</string>
+    <string name="dialog_title"><b>Adobe® AIR®</b></string>
+    <string name="dialog_text">Ta aplikacja wymaga środowiska Adobe AIR.\n\nCzy zainstalować środowisko Adobe AIR?</string>
+</resources>
