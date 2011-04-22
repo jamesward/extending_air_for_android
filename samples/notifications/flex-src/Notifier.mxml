@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+                       xmlns:s="library://ns.adobe.com/flex/spark">
+  
+  <fx:Style>
+    @namespace s "library://ns.adobe.com/flex/spark";
+    
+    global {
+      fontSize: 32;      
+    }
+  </fx:Style>
+  
+  <s:layout>
+    <s:VerticalLayout horizontalAlign="center" paddingTop="20"/>
+  </s:layout>
+  
+  <s:TextInput id="t" text="test test"/>
+  
+  <s:Button label="create notification">
+    <s:click>
+      <![CDATA[
+        var s:Socket = new Socket();
+        s.connect("localhost", 12345);
+        s.addEventListener(Event.CONNECT, function(event:Event):void {
+          trace('connected!');
+          (event.currentTarget as Socket).writeInt(1);
+          (event.currentTarget as Socket).writeUTF(t.text);
+          (event.currentTarget as Socket).flush();
+          (event.currentTarget as Socket).close();
+        });
+        s.addEventListener(IOErrorEvent.IO_ERROR, function(event:IOErrorEvent):void {
+          trace('error! ' + event.errorID);
+        });
+        s.addEventListener(ProgressEvent.SOCKET_DATA, function(event:ProgressEvent):void {
+          trace('progress ');
+        });
+      ]]>
+    </s:click>
+  </s:Button>
+  
+</s:Application>

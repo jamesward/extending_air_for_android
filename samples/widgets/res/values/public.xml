@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <public type="drawable" name="icon" id="0x7f020000" />
+    <public type="drawable" name="mp_warning_32x32_n" id="0x7f020001" />
+    <public type="raw" name="debugger" id="0x7f030000" />
+    <public type="raw" name="debuginfo" id="0x7f030001" />
+    <public type="string" name="button_yes" id="0x7f040000" />
+    <public type="string" name="button_no" id="0x7f040001" />
+    <public type="string" name="dialog_title" id="0x7f040002" />
+    <public type="string" name="dialog_text" id="0x7f040003" />
+    <public type="style" name="Theme.NoShadow" id="0x7f050000" />
+</resources>

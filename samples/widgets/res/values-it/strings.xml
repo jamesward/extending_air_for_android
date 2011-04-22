@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="button_yes">Installa</string>
+    <string name="button_no">Annulla</string>
+    <string name="dialog_title"><b>Adobe® AIR®</b></string>
+    <string name="dialog_text">Questa applicazione richiede Adobe AIR.\n\nInstallare Adobe AIR ora?</string>
+</resources>

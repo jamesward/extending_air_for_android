@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="button_yes">安装</string>
+    <string name="button_no">取消</string>
+    <string name="dialog_title"><b>Adobe® AIR®</b></string>
+    <string name="dialog_text">此应用程序需要 Adobe AIR。\n\n是否立即安装 Adobe AIR？</string>
+</resources>
